@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="formulario">
+    <form class="contenido">   
+      <input type="text" id="rut" placeholder="RUT">
+      <input type="text" id="nombre" placeholder="Nombre">
+      <input type="text" id="apellido" placeholder="Apellido">
+      <input type="number" id="edad" placeholder="Edad">
+      <input type="email" id="mail" placeholder="Correo">
+      <select id="especialidad" placeholder="Especialidad">
+        <option value="valor1">Consulta</option>
+        <option value="valor2">Dental</option>
+        <option value="valor3">Oftalmología</option>
+        <option value="valor4">Pediatria</option>
+      </select>
+        <input type="text" id="date" placeholder="dd-mm-aaaa" min="2021-03-03">
+        <select id="hora" placeholder="Hora" required>
+          <option value="value1">9:30</option>
+          <option value="value2">10:30</option>
+          <option value="value3">11:30</option>
+        </select>                
+        <input class="boton" type="submit"  id="submit" value="Reservar">            
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
